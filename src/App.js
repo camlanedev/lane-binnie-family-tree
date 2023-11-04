@@ -244,7 +244,6 @@ class App extends Component {
                 depthFactor={this.state.depthFactor}
                 styles={this.state.styles}
                 shouldCollapseNeighborNodes={this.state.shouldCollapseNeighborNodes}
-                // onUpdate={(...args) => {console.log(args)}}
                 onNodeClick={(node, evt) => {
                   console.log('onNodeClick', node, evt);
                 }}
