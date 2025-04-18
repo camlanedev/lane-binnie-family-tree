@@ -35,14 +35,18 @@ const flagIcons = {
     "Wales" : "https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_Wales_%281959%29.svg",
     "Australia" : "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg"};
 
-const ignoredAttributes = ["links", "gender"];
+const ignoredAttributes = ["links", "gender", "birthCountry"];
+const upperCaseAttribuites = ["yod", "yob"];
 
 function toTitleCase(value) {
+    if (upperCaseAttribuites.includes(value)) {
+        return value.toUpperCase()
+    }
     return value.charAt(0).toUpperCase() + value.replace(/([A-Z])/g, " $1").slice(1)
 }
 
 function getFlagUrl(attributes) {
-    return flagIcons[attributes['born']?.split(',').pop().trim()]
+    return flagIcons[attributes['birthCountry']]
 }
 
 function getCircleClass(gender) {
@@ -81,7 +85,7 @@ const FamilyTreeNode = ({ nodeDatum, orientation, toggleNode, onNodeClick }) => 
             </text>
             <text className="rd3dag-label__attributes">
                 {Object.entries(nodeDatum.attributes)
-                    .filter(key => !key.includes('links') && !key.includes('gender'))
+                    .filter(key => !key.includes('links') && !key.includes('gender') && !key.includes('birthCountry'))
                     .map(([key, value], i) =>
                         <tspan key={`${key}-${i}`} {...textLayout[orientation].attribute}>
                             {toTitleCase(key)}: {value}
