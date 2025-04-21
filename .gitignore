@@ -134,3 +134,7 @@ dist
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+
+# Local Netlify folder
+.netlify
+/package-lock.json

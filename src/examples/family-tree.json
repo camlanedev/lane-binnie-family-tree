@@ -329,10 +329,12 @@
                     "born": "Liverpool",
                     "birthCountry": "England",
                     "resided": "Lane Cove, NSW",
-                    "arrivedAs": "Convict",
+                    "arrivedAs": "Convict's child",
+                    "notes": "Brother Thomas also arrived on the Alexander",
                     "arrivedOn": "Alexander (1806)",
                     "links": [
-                      "https://www.wikitree.com/wiki/Anderson-32840"
+                      "https://www.wikitree.com/wiki/Anderson-32840",
+                      "https://freesettlerorfelon.com/convict_ship_alexander_1806.htm"
                     ]
                   },
                   "children": [
@@ -344,8 +346,6 @@
                         "yod": "1806",
                         "born": "North Stoke, Oxfordshire",
                         "birthCountry": "England",
-                        "resided": "Sydney, NSW",
-                        "occupation": "Carpenter/Schoolteacher",
                         "arrivedAs": "Convict",
                         "arrivedOn": "Alexander (1806)",
                         "links": [
@@ -377,8 +377,11 @@
                         "yob": "1785",
                         "born": "Oxfordshire",
                         "birthCountry": "England",
-                        "arrivedAs": "Convicts wife",
-                        "arrivedOn": "Alexander (1806)"
+                        "arrivedAs": "Convict's wife",
+                        "arrivedOn": "Alexander (1806)",
+                        "links": [
+                          "https://www.geni.com/people/Sarah-Holloway-Anderson-Overend-Anderson-Oliver-Curran-Free-Settler-Alexander-1806/6000000038275627614"
+                        ]
                       }
                     }
                   ]
@@ -408,7 +411,8 @@
                         "arrivedOn": "Royal Admiral (1800)",
                         "links": [
                           "https://australianroyalty.net.au/tree/purnellmccord.ged/individual/I77425/John-Manning",
-                          "https://convictrecords.com.au/convicts/manning/john/100311"
+                          "https://convictrecords.com.au/convicts/manning/john/100311",
+                          "https://www.freesettlerorfelon.com/convict_ship_royal_admiral_1800.htm#google_vignette"
                         ]
                       },
                       "children": [
@@ -441,7 +445,8 @@
                         "arrivedAs": "Convict",
                         "arrivedOn": "The Nile (1801)",
                         "links": [
-                          "https://australianroyalty.net.au/tree/purnellmccord.ged/individual/I77426/Margaret-Llewellyn"
+                          "https://australianroyalty.net.au/tree/purnellmccord.ged/individual/I77426/Margaret-Llewellyn",
+                          "https://www.freesettlerorfelon.com/convict_ship_nile_1801.htm"
                         ]
                       },
                       "children": [
